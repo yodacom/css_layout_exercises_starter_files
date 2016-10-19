@@ -1,0 +1,56 @@
+main {
+    font-size: 0;
+    }
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: black;
+}
+
+.container2 {
+    width: 800px;
+    height: 400px;
+    font-size: 0;
+    background-color: black;
+}
+.greenBlock {
+    height: 200px;
+    width: 50%;
+    border: 1px black solid;
+    background-color: green;
+    display: inline-block;
+}
+
+.blueBlock {
+    height: 200px;
+    width: 50%;
+    border: 1px black solid;
+    background-color: blue;
+    display:inline-block;
+}
+
+.box {
+    border:1px black solid;
+    display: inline-block;
+
+}
+
+.gray {
+    background-color: gray;
+    display: inline-block;
+    width: 33%;
+}
+
+.black {
+    background-color: black;
+    display: inline-block;
+    width: 33%
+}
+
+.orange {
+    background-color: orange;
+    display: inline-block;
+    width: 33%;
+}
