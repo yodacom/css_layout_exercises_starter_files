@@ -1,17 +1,6 @@
-
-body {
-  background: url(../images/outerspace_landscape.jpeg) no-repeat;
-  background-size: cover;
- }
-
 .container {
   padding-left: 60px;
   padding-right: 60px;
-}
-
-main {
-  padding-top: 90px;
-  min-width: 1000px;
 }
 
 nav {
@@ -19,16 +8,6 @@ nav {
   background-color: grey;
   position: fixed;
   width: 100%;
-}
-
-nav ul {
-  display: inline-block;
-  list-style: none;
-}
-
-nav li {
-    display: inline-block;
-
 }
 
 nav .icon-img {
@@ -40,26 +19,32 @@ nav .icon-img {
   border: 1px solid black;
 }
 
-nav li {
+nav ul {
   display: inline-block;
+  list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li::after {
+  content: "|";
+  margin-: 5px;
 }
 
 nav a:hover {
   color: black;
 }
 
-.logo {
-  position: absolute;
-  left: 10px;
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+ }
 
-
-}
-
-.image_box {
-width:200px;
-height:200px;
-background-color: black;
-border: 1px dotted black;
+main {
+  padding-top: 90px;
+  min-width: 1000px;
 }
 
 .box {
